@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 export class Henkilo {
   private etunimi: string;
@@ -39,4 +38,8 @@ export class Henkilo {
     console.log("Return ika");
     return this.ika;
   }
+}
+
+export default function Test() {
+  return <div>lolololol</div>;
 }
