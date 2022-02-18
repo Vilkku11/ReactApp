@@ -13,9 +13,3 @@ function App(): JSX.Element {
 }
 
 export default App;
-
-var h = new Henkilo("lkakka", "lol", 12);
-
-console.log(h.getEtunimi());
-h.setEtunimi("vamma");
-console.log(h.getEtunimi());
